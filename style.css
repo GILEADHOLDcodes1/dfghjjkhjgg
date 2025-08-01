@@ -1,0 +1,258 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+ 
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.navbar img{
+    padding-left: 200px;
+}
+
+
+.navbar  li{
+    display: inline;
+    list-style: none;
+    font-size: 20px;
+     padding-left: 55px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: grey; 
+}
+
+.navbar .sign{
+    padding-left: 800px;
+    gap: 35px;
+}
+
+.navbar .sign button{
+    background-color: aquamarine;
+    color: white;
+    border-radius: 20px;
+    border-color: aquamarine;
+    padding: 10px 19px;
+    margin-left: 25px;
+    
+}
+
+.color{
+    background-color: whitesmoke;
+    length: 1000px;
+}
+
+header{
+    display: flex;
+    padding-left: 200px;
+    padding-top: 75px;
+    gap: 450px;
+}
+
+header .doubt h1{
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 120px;
+    font-family: "Playwrite AU QLD";
+}
+
+header .doubt p{
+    font-size: 25;
+    color: grey;
+    font-family: "Bitcount Grid Single";
+}
+
+header .doubt button{
+    background-color: aquamarine;
+    color: white;
+    border-radius: 20px;
+    border-color: aquamarine;
+    padding: 10px 19px;
+    margin-top: 45px;
+}
+
+form{
+    background-color: hsl(257, 27%, 26%);
+    margin: 0px 200px;
+    border-radius: 10px;
+    margin-top: 60px;
+    background-image: url(images/bg-shorten-desktop.svg);
+}
+
+form input{
+    padding: 20px 450px;
+    border-radius: 10px;
+    margin: 35px 75px;
+}
+
+form button{
+    background-color: aquamarine;
+    color: white;
+    border-radius: 10px;
+    border-color: aquamarine;
+    padding: 20px 50px;
+}
+
+.center{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.style{
+    display: flex;
+    gap: 25px;
+}
+
+.boy{
+    display: flex;
+}
+
+.lists{
+    background-color: white;
+    margin: 75px 0px;
+    width:  350px;
+    border-radius: 15px;
+    padding: 25px 30px;
+    margin-left: 250px;
+    margin-top: 200px;
+}
+
+
+
+.lists img{
+    border-radius: 50%;
+    background-color: hsl(260, 8%, 14%);
+    padding: 9px 13px;
+}
+
+.lists h3{
+    padding: 10px 0px;
+}
+
+.lists p{
+    width: 100%;
+    line-height: 1.5rem;
+}
+
+.farm{
+    background-color: white;
+    margin: 75px 0px;
+    width:  350px;
+    border-radius: 15px;
+    padding: 25px 30px;
+    margin-left: 150px;
+    margin-top: 350px;
+}
+
+.farm img{
+    border-radius: 50%;
+    background-color: hsl(260, 8%, 14%);
+    padding: 9px 13px;
+}
+
+.farm h3{
+    padding: 10px 0px;
+}
+
+.farm p{
+    width: 100%;
+    line-height: 1.5rem;
+}
+
+.girl{
+    background-color: white;
+    margin: 75px 0px;
+    width:  350px;
+    border-radius: 15px;
+    /* padding: 25px 15px; */
+    margin-left: 150px;
+    margin-top: 550px;
+
+}
+
+.girl img{
+    border-radius: 50%;
+    background-color: hsl(260, 8%, 14%);
+    padding: 9px 13px;
+}
+
+.girl h3{
+    padding: 10px 0px;
+}
+
+.girl p{
+    width: 100%;
+    line-height: 1.5rem;
+}
+
+.boost{
+    background-color: hsl(257, 27%, 26%);
+    padding: 55px 700px;
+    text-align: center;
+    background-image: url(images/bg-boost-desktop.svg);
+    background-repeat: no-repeat;
+    margin-top: 150px;
+}
+
+.boost h2{
+    font-size: 40px;
+    color: white;
+}
+
+.boost button{
+    font-size: 25px;
+    color: white;
+    background-color: aqua;
+    border-color: aqua;
+    border-radius: 20px;
+    padding: 8px 12px;
+
+}
+
+footer{
+    background-color: hsl(260, 8%, 14%);
+    display: flex;
+    padding: 65px 25px;
+}
+
+footer img{
+    color: white;
+}
+
+footer .feature b{
+    color: white;
+    padding-left: 125px;
+    padding-bottom: 45px;
+}
+
+footer .feature li{
+    list-style: none;
+}
+
+footer .feature li a{
+    text-decoration: none;
+    color: white;
+    line-height: 2rem;
+    padding-left: 125px;
+}
+
+footer  .face{
+    padding-left: 750px;
+}
+
+/* media query starts here */
+@media screen and (MAX-WIDTH: 768PX) {
+    nav ul li{
+        display: none;
+    }
+}
